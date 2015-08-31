@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
@@ -15,41 +14,33 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,700,800' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Signika:400,300,600,700' rel='stylesheet' type='text/css'>
-
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-		<link rel="stylesheet" href="/stylesheets/stylesheet.css">
-
-		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-			<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/theme.min.css">
+		<link rel="stylesheet" href="/css/main.css">
   	</head>
 
   	<body>
   		<div class="wrapper">
 			<!-- HEADER -->
-			<header>
+			<header class="header-block">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-							<a href="/index.html" class="logo"><img src="/images/logo.png" class="img-responsive" alt=""/></a>
+						<div class="col-xs-12 col-sm-3">
+							<a href="/index.html" class="logo"><img src="/images/logo.png" width="80" alt=""/></a>
 						</div>
-					</div>
-					<div class="freebie-btn">
-						<a href="#"></a>
+						<div class="col-xs-12 col-sm-7">
+							<h1>Fenom-template</h1>
+							<p>lightweight template engine for PHP</p>
+						</div>
 					</div>
 				</div>
 			</header>
 			<!-- HEADER -->
 			<!-- MENU -->
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-fenom">
 				<div class="container">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav-bar">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -57,7 +48,7 @@
 						</button>
 					</div>
 					<!-- Navmenu -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="collapse navbar-collapse" id="top-nav-bar">
 						<ul class="nav navbar-nav">
 							<li><a class="active" href="/index.html">Home</a></li>
 							<li><a href="./index.html">Downloads</a></li>
@@ -70,6 +61,15 @@
 					</div>
 				</div>
 			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="btn btn-primary">btn-primary</div>
+						<div class="btn btn-info">btn-info</div>
+						<div class="btn btn-warning">btn-warning</div>
+					</div>
+				</div>
+			</div>
 			<!-- MENU -->
 		</div>
 		<footer class="footer-bottom">
